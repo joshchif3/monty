@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
-* f_pall - print everything in stack
-* @head: pointer to pointer of first node
-* @counter: line counter (not used)
+* f_pall - print stack
+* @head: pointer to node
+* @counter: licounter
 *
 * Return: none
 */
@@ -25,9 +25,9 @@ void f_pall(stack_t **head, unsigned int counter)
 }
 
 /**
-* f_swap - swap first two elements of stack
-* @head: first node
-* @counter: line counter
+* f_swap - swap elements of stack
+* @head: first
+* @counter: counter
 *
 * Return: none
 */
