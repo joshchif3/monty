@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * f_pchar - print the char at the top of stack
- * @head: stack head
- * @counter: line counter
+ * f_pchar - prints to stack
+ * @head: header of the stck
+ * @counter: counter
  *
  * Return: none
  */
