@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
-* execute - execute opcode
-* @stack: stack of linked list
-* @counter: line counter
-* @file: pointer to monty file stream
-* @content: line content
+* execute - exe code
+* @stack: stck of lists
+* @counter: counter for lines
+* @file: monty file stream
+* @content: content
 *
 * Return: none
 */
