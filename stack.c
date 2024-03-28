@@ -1,8 +1,8 @@
 #include "monty.h"
 
 /**
- * free_stack - freedoubly linked list
- * @head: first node of stack
+ * free_stack - freestack list
+ * @head: first one in stack
  * Return: none
  */
 
@@ -20,9 +20,9 @@ void free_stack(stack_t *head)
 }
 
 /**
- * f_stack - free stack
- * @head: first node(unused)
- * @counter: line counter (unused)
+ * f_stack - freeone to be in the stack
+ * @head: frst of the node
+ * @counter: counter
  *
  * Return: none
 */
