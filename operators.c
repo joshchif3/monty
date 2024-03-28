@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * f_add - add first 2 elements of the stack
- * @head: pointer to pointer to first node
- * @counter: line counter
+ * f_add - add elements of stack
+ * @head: points node
+ * @counter: counter
  *
  * Return: none
  */
@@ -35,9 +35,9 @@ void f_add(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_sub - subtract 2 elements of the stack
- * @head: pointer to pointer to first node
- * @counter: line counter
+ * f_sub - subtract elements of  stack
+ * @head: pointers node
+ * @counter: counter
  *
  * Return: none
  */
@@ -67,9 +67,9 @@ void f_sub(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_mul - multiply first 2 elements of the stack
- * @head: pointer to pointer to first node
- * @counter: line counter
+ * f_mul - multiply of stack
+ * @head: pointers to node
+ * @counter: counter
  *
  * Return: none
  */
@@ -101,9 +101,9 @@ void f_mul(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_div - divide first 2 elements of the stack
- * @head: pointer to pointer to first node
- * @counter: line counter
+ * f_div - divide elements of stack
+ * @head: pointers to node
+ * @counter: counter
  *
  * Return: none
  */
@@ -143,9 +143,9 @@ void f_div(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_mod - compute modulos of two elements in stack
- * @head: pointer to pointer to first node
- * @counter: line counter
+ * f_mod - compute modules to stack
+ * @head: pointers to node
+ * @counter: counter
  *
  * Return: none
  */
