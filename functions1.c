@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * f_pop - print top node on stack
- * @head: pointer to pointer of first node
- * @counter: line counter
+ * f_pop - print and show  top node on stack
+ * @head: pointer to pointer of node
+ * @counter: counter for lines
  *
  * Return: none
  */
@@ -27,9 +27,9 @@ void f_pop(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_pint - print top node on stack
- * @head: pointer to pointer of first node
- * @counter: line counter
+ * f_pint - print top nodes
+ * @head: pointer node
+ * @counter: counter
  *
  * Return: none
  */
@@ -49,9 +49,9 @@ void f_pint(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_nop - do nothing
- * @head: pointer to pointer of first node
- * @counter: line counter
+ * f_nop - do nop
+ * @head: pointer to node
+ * @counter: counter
  *
  * Return: none
  */
