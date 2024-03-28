@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * f_pstr - print string at the top of stack
- * @head: first node of linked list
- * @counter: line counter
+ * f_pstr - prints to stack
+ * @head: list of the nodes
+ * @counter: counter
  *
  * Return: none
  */
