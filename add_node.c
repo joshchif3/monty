@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
-* addnode - add node to top of stack
-* @head: first node
-* @n: new value
+* addnode - add nde
+* @head: fist
+* @n: nw vl
 *
 * Return: none
 */
